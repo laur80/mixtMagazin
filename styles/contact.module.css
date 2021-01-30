@@ -1,0 +1,41 @@
+.containgps{
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+    height: 100vh;
+    width: 100%;
+    /* border: 2px solid red; */
+ }
+ .date {
+     display: flex;
+     flex-direction: column;
+     height: 100%;
+     width: 60%;
+     background-image: url(/img/location.jpg) ;
+     background-size: cover;
+     background-repeat: no-repeat;
+     /* border: 2px solid red; */
+ }
+ .date h1 {
+     margin:4rem auto;
+     color: rgb(29, 29, 141);
+ }
+ #ss{
+     color: whitesmoke;
+ }
+ 
+ .contact {
+     height: 100%;
+     width: 40%;
+     background-image: url(/img/gps2.jpg) ;
+     background-size: cover;
+     background-repeat: no-repeat;
+ }
+ @media (max-width: 1500px) {
+     .date{
+         width: 100%;
+     }
+     .contact{
+       display: none;
+   }
+ }

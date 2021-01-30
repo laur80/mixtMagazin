@@ -1,0 +1,21 @@
+.brick {
+  background-image: url(/img/brickW.jpg) ;
+  background-size: cover;
+  background-repeat: no-repeat;
+  padding: 7vh;
+}
+.despre{
+  width: 50%;
+  margin-left: auto;
+  margin-right: auto;
+}
+.container {
+  width: 80%;
+  max-width: 60ch;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 2rem;
+}
+.col {
+  margin-top: 3rem;
+}
