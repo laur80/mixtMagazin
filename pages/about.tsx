@@ -1,6 +1,7 @@
 import styles from '../styles/about.module.css'
 
 const about = () => {
+  const lp="mt-5"
   return ( 
     <>
     
@@ -16,7 +17,7 @@ const about = () => {
             </p>
           </div>
 
-          <div className={styles.col}>
+          <div className="mt-5">
               <h1>Cum facem asta?</h1>
               <p>
               Lorem ipsum dolor, sit amet consectetur adipisicing elit. Vitae, quidem dolor? Quo debitis voluptates, harum atque consectetur molestias soluta nostrum, in aliquid rerum error omnis! Optio assumenda nulla libero deleniti ut sint odit ad reprehenderit consequuntur voluptatum qui temporibus similique, nostrum quaerat architecto eveniet velit nobis! Nam qui repellendus magnam?
