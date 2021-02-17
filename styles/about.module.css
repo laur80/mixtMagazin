@@ -1,13 +1,14 @@
-.brick {
+#brick {
   background-image: url(/img/brickW.jpg) ;
   background-size: cover;
   background-repeat: no-repeat;
   padding: 7vh;
+  top: 0;
 }
 .despre{
-  width: 50%;
-  margin-left: auto;
-  margin-right: auto;
+  margin-top: 2rem;
+  margin-bottom: auto;
+  text-align: center;
 }
 .container {
   width: 80%;
